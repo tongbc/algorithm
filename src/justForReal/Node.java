@@ -8,4 +8,7 @@ public class Node {
       this.index = index;
       this.next = next;
     }
+    public static void main(String[] args) {
+		System.out.println("hello");
+	}
   }
