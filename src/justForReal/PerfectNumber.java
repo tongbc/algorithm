@@ -13,5 +13,7 @@ public class PerfectNumber {
 	}
 	public static void main(String[] args) {
 		System.out.println(PerfectNumber.checkPerfectNumber(28));
+		System.out.println('A'-'a');
+		
 	}
 }
