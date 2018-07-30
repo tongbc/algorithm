@@ -29,7 +29,7 @@ public class RelativeRanks {
             } else if (map.get(nums[i]) == 2) {
                 result[i] = "Silver Medal";
             } else if (map.get(nums[i]) == 3) {
-                result[i] = "Bronze Medal";
+                result[i] = "Bronze Medal1";
             } else {
                 result[i] = String.format("%s", map.get(nums[i]));
             }
