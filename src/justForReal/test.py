@@ -1,11 +1,18 @@
-import numpy as np
-# a = np.array([[1,2],[3,4],[5,6]])
-# b = (np.max(a,axis=1))
-# print(np.shape(a))
-# nums = (a-b.reshape(-1,1))
-# exnum = np.exp(nums)
-# denominator = 1/np.sum(exnum,axis=1)
-# x = exnum/np.reshape(denominator,(-1,1))
-# print(x)
+class Solution(object):
+    def canCompleteCircuit(self):
+        """
+        :type gas: List[int]
+        :type cost: List[int]
+        :rtype: int
+        """
+        num = 5
+        l = 4
+        print(self.cut(num,l))
 
-print(np.exp(0.4236))
+    def cut(self, num, length):
+        if num > length:
+            return num - length
+        return num
+
+temp = Solution()
+temp.canCompleteCircuit()
