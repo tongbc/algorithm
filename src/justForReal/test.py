@@ -1,18 +1,12 @@
-class Solution(object):
-    def canCompleteCircuit(self):
-        """
-        :type gas: List[int]
-        :type cost: List[int]
-        :rtype: int
-        """
-        num = 5
-        l = 4
-        print(self.cut(num,l))
+wordList = ["hot","dot","dog","lot","log","cog"]
 
-    def cut(self, num, length):
-        if num > length:
-            return num - length
-        return num
 
-temp = Solution()
-temp.canCompleteCircuit()
+def construct_dict(word_list):
+    d = {}
+    for word in word_list:
+        for i in range(len(word)):
+            s = word[:i] + "_" + word[i + 1:]
+            d[s] = d.get(s, []) + [word]
+    return d
+print("hot"[1:])
+print(construct_dict(wordList))
