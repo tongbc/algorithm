@@ -9,7 +9,7 @@ def reverse(head):
     p,q = head,head
     temp = None
     while(q.next):
-        q = p.next
+        q = p.nextt
         p.next = temp
         q.next = p
         temp = p
