@@ -4,20 +4,21 @@
 #         self.val = x
 #         self.left = None
 #         self.right = None
+# ulr lur  lru->url
 class Solution(object):
-    def preorderTraversal(self, root):
+    def postorderTraversal(self, root):
         """
         :type root: TreeNode
         :rtype: List[int]
         """
+        stack = []
         res = []
-        lis = []
         cur = root
-        while cur or lis:
+        while stack or cur:
             if cur:
+                stack.append(cur.left)
                 res.append(cur.val)
-                lis.append(cur.right)
-                cur = cur.left
+                cur = cur.right
             else:
-                cur = lis.pop()
-        return res
+                cur = stack.pop()
+        return res[::-1]
