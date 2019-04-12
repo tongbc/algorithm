@@ -1,13 +1,13 @@
-import time
-import numpy as np
+# lis = "水星、金星、地球、火星、木星、土星、天王星、海王星"
+# lis = lis.split("、")
+# for i in lis:
+#     print("太阳 行星 "+ i)
 
-start_time = time.time()
-a = np.random.rand(100, 100) * 2 - 1
-b = np.random.rand(100, 100) * 2 - 1
+lis = [0]*5
+lis[1]=1
+print(lis)
+for index,num in enumerate(lis[1:]):
+    print(index)
+    index = index+1
 
-for i in range(500000):
-    c = a + b
-    c = a * b
-
-end_time = time.time()
-print(end_time - start_time)
+    print(index)
