@@ -5,7 +5,7 @@ def summaryRanges(nums):
             ranges += [],
         ranges[-1][1:] = n,
     print(ranges)
-    return ['->'.join(str(r)) for r in ranges]
+    return ['->'.join(map(str, r)) for r in ranges]
 
 lis = [0,1,2,4,5,7]
 print(summaryRanges(lis))
