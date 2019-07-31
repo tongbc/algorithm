@@ -17,7 +17,10 @@ class Solution(object):
     #                 return True
     #     return False
     def wordBreak(self, s, words):
-        ok = [True]
-        for i in range(1, len(s) + 1):
-            ok += any(ok[j] and s[j:i] in words for j in range(i)),
-        return ok[-1]
+        df = [False]*(len(s)+1)
+        df[0] = True
+        for i in range(len(s)):
+            for w in words:
+                if i-len(w)+1>=0 and w==s[i-len(w)+1:i+1] and df[i-len(w)+1]:
+                    df[i+1] = True
+        return df[len(s)]
