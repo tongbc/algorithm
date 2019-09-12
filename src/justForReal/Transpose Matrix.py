@@ -1,5 +1,5 @@
 class Solution:
-    def transpose(self, lis: List[List[int]]) -> List[List[int]]:
+    def transpose(self, lis):
     # def transpose(self, lis):
         """
         :type A: List[List[int]]
@@ -11,3 +11,5 @@ class Solution:
             for j in range(b):
                 res[j][i] = lis[i][j]
         return res
+
+print(bin(2))
