@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-14T07:31:33.310Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="_DfM4Mz3llOK8WmtukPZ" version="16.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-14T07:35:30.704Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="NePEJnHsYFn4D6G1FLew" version="16.4.6" type="github">
   <diagram id="D6BylBkNNL8FtkSG672A" name="Page-1">
     <mxGraphModel dx="1650" dy="898" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -224,14 +224,14 @@
             <mxPoint x="335" y="1080" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="P8GiVf-amTZCyg1b9BKk-57" value="deny" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="P8GiVf-amTZCyg1b9BKk-57" value="初始化confirm_teach" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="95" y="1110" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="P8GiVf-amTZCyg1b9BKk-58" value="teach_is" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="P8GiVf-amTZCyg1b9BKk-58" value="确认物品||不确定性物品" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="375" y="1110" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="P8GiVf-amTZCyg1b9BKk-59" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 19px&quot;&gt;&lt;span style=&quot;color: #ce9178&quot;&gt;teach_mode&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 19px&quot;&gt;&lt;span style=&quot;color: #ce9178&quot;&gt;teach_is&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="375" y="1020" width="90" height="40" as="geometry" />
+        <mxCell id="P8GiVf-amTZCyg1b9BKk-59" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 19px&quot;&gt;&lt;span style=&quot;color: rgb(206 , 145 , 120)&quot;&gt;confirm_teaching_pointing&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 19px&quot;&gt;&lt;span style=&quot;color: #ce9178&quot;&gt;teach_is&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="315" y="1020" width="210" height="40" as="geometry" />
         </mxCell>
         <mxCell id="P8GiVf-amTZCyg1b9BKk-60" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 19px&quot;&gt;&lt;div style=&quot;font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 19px&quot;&gt;&lt;span style=&quot;color: #ce9178&quot;&gt;teach_mode&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 19px&quot;&gt;&lt;div style=&quot;font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 19px&quot;&gt;&lt;span style=&quot;color: #ce9178&quot;&gt;teach_is&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 19px&quot;&gt;&lt;div style=&quot;line-height: 19px&quot;&gt;#&lt;span style=&quot;color: #9cdcfe&quot;&gt;remain_obj_id_point&lt;/span&gt; &amp;gt; &lt;span style=&quot;color: #b5cea8&quot;&gt;1&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="25" y="1025" width="200" height="60" as="geometry" />
